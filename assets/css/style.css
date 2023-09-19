@@ -4,13 +4,15 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+a { color:rgb(224, 1, 195); text-decoration:underline;}
+
+header {
+    background-color: #ecd4e7;
+}
 
 .bar {
-    background-color: #c6c6f1;
-    padding:15px;
-    border-top: solid 1px #010a5c;
-    border-bottom: solid 1px #3116aa;
+    background-color: #ff88ef;
+    padding:10px;
 }
 
 .content {
@@ -27,22 +29,30 @@ a { color:blue; text-decoration: none;}
 
 footer {
     min-height: 100px;
-    border-top: solid 1px #cdcdcd;
+    border-top: solid 1px #ff88ef;
 }
 
 .anchors {
-    border-left: solid 1px #cdcdcd;
-    padding-left: 15px;
+    border-left: solid 1px #ff88ef;
+    padding-left: 20px;
 }
 
 .sidebar {
-    border-right: solid 1px #cdcdcd;
+    border-right: solid 1px #ff88ef;
+    padding-left: 20px;
 }
 
 figure {
     text-align: center;
 }
 
+inframe { 
+    text-align: center;
+    display: flexbox;
+}
+
 h6 {
-    display:inline;
+    padding-left: 100px;
+    text-align: justify;
+    display: flex;
 }
